@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Stockpilot.API/Stockpilot.API.csproj" />
+  <Project Path="Stockpilot.Application/Stockpilot.Application.csproj" />
+  <Project Path="Stockpilot.Domain/Stockpilot.Domain.csproj" />
+  <Project Path="Stockpilot.infrastructure/Stockpilot.infrastructure.csproj" />
+</Solution>

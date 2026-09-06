@@ -1,0 +1,6 @@
+@Stockpilot.API_HostAddress = http://localhost:5270
+
+GET {{Stockpilot.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

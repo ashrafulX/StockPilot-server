@@ -4,7 +4,10 @@ using System.Text;
 
 namespace Stockpilot.Domain.Enum
 {
-    internal class StockMovementType
+    public enum StockMovementType
     {
+        Receipt = 0,
+        Issue = 1,
+        Adjust = 2
     }
 }

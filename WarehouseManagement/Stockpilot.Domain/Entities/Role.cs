@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Stockpilot.Domain.Entities
 {
-    internal class Role
+    public class Role : BaseEntity
     {
+        public required string Name { get; set; }
+        public ICollection<UserRoles> UserRoles { get; set; }
     }
 }
